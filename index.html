@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="assets/css/boxicons.min.css" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Ren-Hao, Yeh's Resume</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Ren-Hao</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>Profile
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>Education
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>Portfolio
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img
+                  src="assets/img/profile-img.jpeg"
+                  alt=""
+                  class="home__img"
+                />
+                <h1 class="home__title"><b>Ren-Hao</b>, Yeh</h1>
+                <h3 class="home__profession">Full Stack Developer</h3>
+                <div>
+                  <a
+                    download=""
+                    href="assets/pdf/Ren-Hao, Yeh's Resume.pdf"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Taipei, Taiwan
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i> rhy3htw@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> (+886) 905-143-016
+                </span>
+              </div>
+            </div>
+
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+            <div class="social__content bd-grid">
+              <a
+                href="https://www.linkedin.com/in/rhy3h/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i> @rhy3h
+              </a>
+              <a
+                href="https://github.com/rhy3h"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i> @rhy3h
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">
+              Do or do not, there is no try.
+              <br />I love solving problems.
+            </p>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Django
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Three.js
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Vue.js
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Android
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Docker
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>Azure
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+
+            <div class="languages__content bd-grid">
+              <ul class="languages__data">
+                <li class="languages__name">
+                  <span class="skills__circle"></span>Chinese (Native)
+                </li>
+                <li class="languages__name">
+                  <span class="languages__circle"></span>English (Fluent)
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    Bachelor of Science of Computer Science and Engineering
+                  </h3>
+                  <span class="education__studies">Tatung University</span>
+                  <span class="education__year">Sep 2017 - Jun 2021</span>
+                  <p class="education__description">
+                    Developed a rhythm game using Three.js contains
+                    cylinder-sphere collision detection & reaction, audio
+                    visualizer using FFT, bloom and laser effect
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">VR Engineer (Part-time)</h3>
+                  <span class="experience__company"
+                    >Research and Development, Moldex3D</span
+                  >
+                  <span class="experience__year">Jul 2021 - Aug 2021</span>
+                  <ul>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Develop VR uses
+                      Three.js
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Create a flakes,
+                      clearcoat texture to apply to surface on Gltf model
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Display sink mark,
+                      warpage on surface
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Collision detection
+                      using Enable3d
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Research Oculus
+                      controller in order to grab a model
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Django Engineer (Intern)</h3>
+                  <span class="experience__company"
+                    >Smart Energy BU, Tatung Company</span
+                  >
+                  <span class="experience__year">Jul 2020 - Aug 2020</span>
+                  <ul>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Develop a Django
+                      project to recognize disconnection problems
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>In responsibility of
+                      back-end development
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Query MS SQL database
+                      on Ubuntu
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Deployed website to
+                      Azure
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Solved environmental
+                      problems using Docker
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== PORTFOLIO ==========-->
+          <section class="experience section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    <a
+                      href="https://github.com/rhy3h/django-stock"
+                      target="_blank"
+                      class="web__link"
+                      >Stock Crawler Website
+                    </a>
+                  </h3>
+                  <span class="experience__year">May 2021 - Present</span>
+                  <ul>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Develop a Django
+                      project to crawler over 1700 pieces of data
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Crawler time reduced
+                      by 50%
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Reading time reduced
+                      by 75%
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Display candlestick
+                      chart, moving average, range slider using bokeh
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    <a
+                      href="https://github.com/rhy3h/mask-detect"
+                      target="_blank"
+                      class="web__link"
+                      >Mask Detection App
+                    </a>
+                  </h3>
+                  <span class="experience__year">Jun 2021 - Aug 2021</span>
+                  <ul>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Machine learning using
+                      YOLOv4-tiny
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Ported to Android
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Solved the problem of
+                      low performance using NCNN
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Increasing FPS 200%
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Message Board</h3>
+                  <span class="experience__year">May 2021 - Jun 2021</span>
+                  <ul>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Develop a message
+                      board using Java Servlet
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Deployed project to
+                      google cloud platform
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Save page using cache
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
