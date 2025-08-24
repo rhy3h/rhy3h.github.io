@@ -11,7 +11,6 @@ rhy3htw@gmail.com
 
  - Spearheaded the development of [AccuRIG](https://actorcore.reallusion.com/auto-rig/accurig), a free auto-rigging software designed to streamline 3D character rigging in just five steps.
  - Principal developer for Three.js Actor Motion & Accessories interactive showcase. [Live Demo](https://actorcore.reallusion.com/3d-motion/pack/skateboard-525936?info=1)
- - Created internal application that optimized workflows, saving both time and operational expenses.
  - Reduced unnecessary API data transfer to accelerate site performance and improve usability.
  - Leveraged OpenAI Codex in project development to automate code generation and improve overall code quality.
 
@@ -25,7 +24,14 @@ rhy3htw@gmail.com
 
 > TypeScript
 
-- Ported the Python-based OCR project **DdddOcr** to Node.js, enabling text recognition and object detection in JavaScript.
+- Ported of the Python project [DdddOcr](https://github.com/sml2h3/ddddocr).
+- Enabling text recognition and object detection in JavaScript.
+
+### PowerATC
+
+> TypeScript (Vue, Three.js) / Electron
+
+- Internal application that optimized workflows, saving both time and operational expenses.
 
 ## Education
 
