@@ -26,16 +26,6 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#profile" class="nav__link">
-                <i class="bx bx-user nav__icon"></i>Profile
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="bx bx-receipt nav__icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav__item">
               <a href="#education" class="nav__link">
                 <i class="bx bx-book nav__icon"></i>Education
               </a>
@@ -62,7 +52,11 @@
     <main class="l-main bd-container">
       <!-- All elements within this div, is generated in PDF -->
       <div class="resume" id="area-cv">
-        <div class="resume__left">
+        <!-- <div class="resume__left">
+
+        </div> -->
+
+        <div class="resume__right">
           <!--========== HOME ==========-->
           <section class="home" id="home">
             <div class="home__container section bd-grid">
@@ -71,13 +65,27 @@
                 <h3 class="home__profession">Software Developer</h3>
               </div>
 
-              <div class="home__address bd-grid">
+              <div class="social__content bd-grid">
                 <span class="home__information">
                   <i class="bx bx-map home__icon"></i> Taipei, Taiwan
                 </span>
                 <span class="home__information">
                   <i class="bx bx-envelope home__icon"></i> rhy3htw@gmail.com
                 </span>
+                <a
+                  href="https://www.linkedin.com/in/rhy3h"
+                  target="_blank"
+                  class="social__link"
+                >
+                  <i class="bx bxl-linkedin-square social__icon"></i> @rhy3h
+                </a>
+                <a
+                  href="https://github.com/rhy3h"
+                  target="_blank"
+                  class="social__link"
+                >
+                  <i class="bx bxl-github social__icon"></i> @rhy3h
+                </a>
               </div>
             </div>
 
@@ -95,136 +103,6 @@
             ></i>
           </section>
 
-          <!--========== SOCIAL ==========-->
-          <section class="social section">
-            <h2 class="section-title">SOCIAL</h2>
-            <div class="social__content bd-grid">
-              <a
-                href="https://www.linkedin.com/in/rhy3h"
-                target="_blank"
-                class="social__link"
-              >
-                <i class="bx bxl-linkedin-square social__icon"></i> @rhy3h
-              </a>
-              <a
-                href="https://github.com/rhy3h"
-                target="_blank"
-                class="social__link"
-              >
-                <i class="bx bxl-github social__icon"></i> @rhy3h
-              </a>
-            </div>
-          </section>
-
-          <!--========== PROFILE ==========-->
-          <section class="profile section" id="profile">
-            <h2 class="section-title">Profile</h2>
-
-            <p class="profile__description">
-              Do or do not, there is no try.
-              <br />I love solving problems.
-            </p>
-          </section>
-
-          <!--========== SKILLS  ==========-->
-          <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-
-            <div class="skills__content bd-grid">
-              <ul class="skills__data">
-                <li class="skills__name">
-                  <span class="skills__circle"></span>Typescript
-                </li>
-                <li class="skills__name">
-                  <span class="skills__circle"></span>C#
-                </li>
-                <li class="skills__name">
-                  <span class="skills__circle"></span>SQL
-                </li>
-              </ul>
-
-              <ul class="skills__data">
-                <li class="skills__name">
-                  <span class="skills__circle"></span>Python
-                </li>
-                <li class="skills__name">
-                  <span class="skills__circle"></span>Android
-                </li>
-                <li class="skills__name">
-                  <span class="skills__circle"></span>CI/CD
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <!--========== SKILLS  ==========-->
-          <section class="languages section">
-            <h2 class="section-title">Languages</h2>
-
-            <div class="languages__content bd-grid">
-              <ul class="languages__data">
-                <li class="languages__name">
-                  <span class="skills__circle"></span>Chinese (Native)
-                </li>
-                <li class="languages__name">
-                  <span class="languages__circle"></span>English (Fluent)
-                </li>
-              </ul>
-            </div>
-          </section>
-
-          <!--========== EDUCATION ==========-->
-          <section class="education section" id="education">
-            <h2 class="section-title">Education</h2>
-
-            <div class="education__container bd-grid">
-              <div class="education__content">
-                <div class="education__time">
-                  <span class="education__rounder"></span>
-                </div>
-
-                <div class="education__data bd-grid">
-                  <h3 class="education__title">
-                    B.S., Computer Science and Engineering
-                  </h3>
-                  <span class="education__studies">
-                    <a
-                      href="https://www.ttu.edu.tw"
-                      target="_blank"
-                      class="web__link"
-                    >
-                      Tatung University
-                    </a>
-                  </span>
-                  <span class="education__year">Sep 2017 - Jun 2021</span>
-                  <p class="education__description">
-                    Developed
-                    <a
-                      href="https://github.com/rhy3h/Beat-Saber"
-                      target="_blank"
-                      class="web__link"
-                      >rhythm game</a
-                    >
-                    using Three.js
-                  </p>
-                  <ul>
-                    <li class="experience__details">
-                      <span class="skills__circle"></span>Collision detection
-                    </li>
-                    <li class="experience__details">
-                      <span class="skills__circle"></span>Audio visualizer
-                    </li>
-                    <li class="experience__details">
-                      <span class="skills__circle"></span>Bloom and laser effect
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <div class="resume__right">
           <!--========== EXPERIENCE ==========-->
           <section class="experience section" id="experience">
             <h2 class="section-title">Experience</h2>
@@ -233,96 +111,58 @@
               <div class="experience__content">
                 <div class="experience__time">
                   <span class="experience__rounder"></span>
-                  <span class="experience__line"></span>
                 </div>
 
                 <div class="experience__data bd-grid">
-                  <h3 class="experience__title">Software Engineer</h3>
-                  <span class="experience__company">
-                    Research and Development,
-                    <a
-                      href="https://www.reallusion.com"
-                      target="_blank"
-                      class="web__link"
-                    >
-                      Reallusion
-                    </a>
+                  <span class="experience__content">
+                    <div class="experience__title">
+                      <h3 class="experience__main__title">Software Engineer</h3>
+                      <span class="experience__company">
+                        <a
+                          href="https://actorcore.reallusion.com"
+                          target="_blank"
+                          class="web__link"
+                        >
+                          Reallusion</a
+                        >
+                        <span class="experience__year">Apr 2022 - Present</span>
+                      </span>
+                    </div>
                   </span>
                   <p class="education__description">
-                    <a
-                      href="https://www.electronjs.org"
-                      target="_blank"
-                      class="web__link"
-                      >Electron</a
-                    >/<a
-                      href="https://vuejs.org"
-                      target="_blank"
-                      class="web__link"
-                      >Vue</a
-                    >/<a
-                      href="https://threejs.org"
-                      target="_blank"
-                      class="web__link"
-                      >Three.js</a
-                    >/<a
-                      href="https://dotnet.microsoft.com/en-us"
-                      target="_blank"
-                      class="web__link"
-                      >.NET</a
-                    >/<a
-                      href="https://www.microsoft.com/en-us/sql-server"
-                      target="_blank"
-                      class="web__link"
-                      >MS SQL</a
-                    >
+                    TypeScript (Vue, Three.js) / Electron / C# / MSSQL / Python
                   </p>
-                  <span class="experience__year">Apr 2022 - Present</span>
                   <ul>
                     <li class="experience__details">
-                      <span class="skills__circle"></span>Developed
+                      <span class="skills__circle"></span>Spearheaded the development of 
                       <a
-                        href="https://actorcore.reallusion.com/auto-rig"
+                        href="https://actorcore.reallusion.com/auto-rig/accurig"
                         target="_blank"
                         class="web__link"
                         >AccuRIG</a
-                      >
-                      application
-                      <a
-                        href="https://youtu.be/JK3jUm-Yj1Y"
+                      >, a free auto-rigging software designed to streamline 3D character 
+                      rigging in just five steps.
+                    </li>
+                    <li class="experience__details">
+                      <span class="skills__circle"></span>Principal developer for Three.js Actor 
+                      Motion & Accessories interactive showcase. <a
+                        href="https://actorcore.reallusion.com/3d-motion/pack/skateboard-525936?info=1"
                         target="_blank"
                         class="web__link"
-                      >
-                        (Intro)</a
-                      >
-                    </li>
-                    <li class="experience__details">
-                      <span class="skills__circle"></span>CI/CD (EV Code Signing
-                      NSIS)
-                    </li>
-                    <li class="experience__details">
-                      <span class="skills__circle"></span>Full function
-                      developed in
-                      <a
-                        href="https://youtu.be/kOVCLOzh2fU"
-                        target="_blank"
-                        class="web__link"
-                        >v1.1</a
+                        >Live Demo</a
                       >
                     </li>
                     <li class="experience__details">
-                      <span class="skills__circle"></span>Resolve 45% defects
+                      <span class="skills__circle"></span>Created internal application that optimized 
+                      workflows, saving both time and operational expenses.
                     </li>
                     <li class="experience__details">
-                      <span class="skills__circle"></span>Introducing Angular
-                      commit guidelines
+                      <span class="skills__circle"></span>Reduced unnecessary API data transfer to 
+                      accelerate site performance and improve usability.
                     </li>
                     <li class="experience__details">
-                      <span class="skills__circle"></span>Automating the
-                      generation of release notes
-                    </li>
-                    <li class="experience__details">
-                      <span class="skills__circle"></span>Reduce data
-                      transmitted per request from 198 kb to 7 kb (96%)
+                      <span class="skills__circle"></span>Leveraged OpenAI Codex in project development 
+                      to automate code generation and improve overall code quality.
                     </li>
                   </ul>
                 </div>
@@ -331,35 +171,22 @@
               <div class="experience__content">
                 <div class="experience__time">
                   <span class="experience__rounder"></span>
-                  <span class="experience__line"></span>
                 </div>
 
                 <div class="experience__data bd-grid">
-                  <h3 class="experience__title">VR Engineer</h3>
-                  <span class="experience__company">
-                    Research and Development,
-                    <a
-                      href="https://www.moldex3d.com"
-                      target="_blank"
-                      class="web__link"
-                    >
-                      Moldex3D
-                    </a>
-                  </span>
-                  <p class="education__description">
-                    <a
-                      href="https://threejs.org"
-                      target="_blank"
-                      class="web__link"
-                      >Three.js</a
-                    >/<a
-                      href=" https://nodejs.org/en"
-                      target="_blank"
-                      class="web__link"
-                      >Node.js</a
-                    >
-                  </p>
-                  <span class="experience__year">Jul 2021 - Aug 2021</span>
+                  <div class="experience__title">
+                    <h3 class="experience__main__title">VR Engineer</h3>
+                    <span class="experience__company">
+                      <a
+                        href="https://www.moldex3d.com"
+                        target="_blank"
+                        class="web__link"
+                      >
+                        Moldex3D</a
+                      >
+                      <span class="experience__year">Jul 2021 - Aug 2021</span>
+                    </span>
+                  </div>
                 </div>
               </div>
 
@@ -369,41 +196,19 @@
                 </div>
 
                 <div class="experience__data bd-grid">
-                  <h3 class="experience__title">Django Engineer (Intern)</h3>
-                  <span class="experience__company">
-                    Smart Energy BU,
-                    <a
-                      href="https://www.tatung.com"
-                      target="_blank"
-                      class="web__link"
-                    >
-                      Tatung Company
-                    </a>
-                  </span>
-                  <p class="education__description">
-                    <a
-                      href="https://www.djangoproject.com"
-                      target="_blank"
-                      class="web__link"
-                      >Django</a
-                    >/<a
-                      href="https://www.microsoft.com/en-us/sql-server"
-                      target="_blank"
-                      class="web__link"
-                      >MS SQL</a
-                    >/<a
-                      href="https://azure.microsoft.com/en-us"
-                      target="_blank"
-                      class="web__link"
-                      >Azure</a
-                    >/<a
-                      href="https://www.docker.com"
-                      target="_blank"
-                      class="web__link"
-                      >Docker</a
-                    >
-                  </p>
-                  <span class="experience__year">Jul 2020 - Aug 2020</span>
+                  <div class="experience__title">
+                    <h3 class="experience__main__title">Django Engineer (Intern)</h3>
+                    <span class="experience__company">
+                      <a
+                        href="https://www.tatung.com"
+                        target="_blank"
+                        class="web__link"
+                      >
+                        Tatung Company</a
+                      >
+                      <span class="experience__year">Jul 2020 - Aug 2020</span>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -422,123 +227,46 @@
                 <div class="experience__data bd-grid">
                   <h3 class="experience__title">
                     <a
-                      href="https://github.com/rhy3h/magicord"
+                      href="https://github.com/rhy3h/ddddocr-node"
                       target="_blank"
                       class="web__link"
-                      >Magicord
+                      >DdddOcr Node
                     </a>
                   </h3>
-                  <span class="experience__year">Sep 2022 - Jan 2023</span>
-                </div>
-              </div>
-
-              <div class="experience__content">
-                <div class="experience__time">
-                  <span class="experience__rounder"></span>
-                </div>
-
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">
-                    <a
-                      href="https://github.com/rhy3h/musicord"
-                      target="_blank"
-                      class="web__link"
-                      >Musicord
-                    </a>
-                  </h3>
-                  <span class="experience__year">Oct 2022 - Dec 2022</span>
-                </div>
-              </div>
-
-              <div class="experience__content">
-                <div class="experience__time">
-                  <span class="experience__rounder"></span>
-                </div>
-
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">
-                    <a
-                      href="https://github.com/rhy3h/django-stock"
-                      target="_blank"
-                      class="web__link"
-                      >Stock Crawler Website
-                    </a>
-                  </h3>
-                  <span class="experience__year">May 2021 - Apr 2022</span>
                   <ul>
                     <li class="experience__details">
-                      <span class="skills__circle"></span>Crawl over 1700 pieces
-                      of data
-                    </li>
-                    <li class="experience__details">
-                      <span class="skills__circle"></span>Reduce crawler time
-                      from 20 mins to 4 mins (5x)
-                    </li>
-                    <li class="experience__details">
-                      <span class="skills__circle"></span>Reduce reading time
-                      from 2 mins to 30 secs (4x)
+                      <span class="skills__circle"></span>Ported the Python-based OCR project DdddOcr to Node.js, enabling text recognition and object detection in JavaScript.
                     </li>
                   </ul>
                 </div>
               </div>
+            </div>
+          </section>
 
-              <div class="experience__content">
-                <div class="experience__time">
-                  <span class="experience__rounder"></span>
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
                 </div>
 
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">
-                    <a
-                      href="https://github.com/rhy3h/mask-detect"
-                      target="_blank"
-                      class="web__link"
-                      >Mask Detection App (Android)
-                    </a>
-                  </h3>
-                  <span class="experience__year">Jun 2021 - Aug 2021</span>
-                  <ul>
-                    <li class="experience__details">
-                      <span class="skills__circle"></span>Improve FPS from 0.05
-                      fps to 5 fps (100x)
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="experience__content">
-                <div class="experience__time">
-                  <span class="experience__rounder"></span>
-                </div>
-
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">
-                    <a
-                      href="https://github.com/rhy3h/GPwith3JS"
-                      target="_blank"
-                      class="web__link"
-                      >Game Programming with Three.js
-                    </a>
-                  </h3>
-                  <span class="experience__year">Feb 2020 - Jun 2020</span>
-                </div>
-              </div>
-
-              <div class="experience__content">
-                <div class="experience__time">
-                  <span class="experience__rounder"></span>
-                </div>
-
-                <div class="experience__data bd-grid">
-                  <h3 class="experience__title">
-                    <a
-                      href="https://github.com/rhy3h/CGwith3JS"
-                      target="_blank"
-                      class="web__link"
-                      >Computer Graphics with Three.js
-                    </a>
-                  </h3>
-                  <span class="experience__year">Sep 2019 - Jan 2020</span>
+                <div class="education__data bd-grid">
+                  <div class="education__title">
+                    <h3 class="education__main__title">B.S., Computer Science and Engineering</h3>
+                    <span class="experience__company">
+                      <a
+                        href="https://www.ttu.edu.tw"
+                        target="_blank"
+                        class="web__link"
+                      >
+                        Tatung University</a
+                      >
+                      <span class="experience__year">Sep 2017 - Jun 2021</span>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>

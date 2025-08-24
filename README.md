@@ -1,7 +1,7 @@
 # [Ren-Hao, Yeh](https://rhy3h.github.io/)
 
+rhy3htw@gmail.com
 [Github](https://github.com/rhy3h)  
-Email: rhy3htw@gmail.com
 
 ## Experience
 
@@ -11,9 +11,9 @@ Email: rhy3htw@gmail.com
 
  - Spearheaded the development of [AccuRIG](https://actorcore.reallusion.com/auto-rig/accurig), a free auto-rigging software designed to streamline 3D character rigging in just five steps.
  - Principal developer for Three.js Actor Motion & Accessories interactive showcase. [Live Demo](https://actorcore.reallusion.com/3d-motion/pack/skateboard-525936?info=1)
+ - Created internal application that optimized workflows, saving both time and operational expenses.
  - Reduced unnecessary API data transfer to accelerate site performance and improve usability.
  - Leveraged OpenAI Codex in project development to automate code generation and improve overall code quality.
- - Created internal application that optimized workflows, saving both time and operational expenses.
 
 #### VR Engineer, [Moldex3D](https://www.moldex3d.com) Jul 2021 - Aug 2021
 
