@@ -29,7 +29,7 @@ rhy3htw@gmail.com
 
 ### PowerATC
 
-> TypeScript (Vue, Three.js) / Electron
+> TypeScript (Vue, Three.js) / Tailwind CSS / Electron
 
 - Internal application that optimized workflows, saving both time and operational expenses.
 
