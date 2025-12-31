@@ -20,7 +20,7 @@ rhy3htw@gmail.com
 
 ## Portfolio
 
-### [DdddOcr Node](https://github.com/rhy3h/ddddocr-node)
+### [DdddOcr JS](https://github.com/rhy3h/ddddocr-node)
 
 > TypeScript
 
