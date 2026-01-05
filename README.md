@@ -27,7 +27,7 @@ rhy3htw@gmail.com
 - Ported of the Python project [DdddOcr](https://github.com/sml2h3/ddddocr).
 - Enabling text recognition and object detection in JavaScript.
 
-### PowerATC
+### [PowerATC](https://github.com/rhy3h/PowerATC)
 
 > TypeScript (Vue, Three.js) / Tailwind CSS / Electron
 
