@@ -5,7 +5,7 @@ rhy3htw@gmail.com
 
 ## Experience
 
-#### Software Engineer, [Reallusion](https://actorcore.reallusion.com) Apr 2022 - Present
+#### Software Engineer, [Reallusion](https://actorcore.reallusion.com) Apr 2022 - Nov 2025
 
 > TypeScript (Vue, Three.js) / Electron / C# / MSSQL / Python
 
