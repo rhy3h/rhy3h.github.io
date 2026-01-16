@@ -1,7 +1,6 @@
 # [Ren-Hao, Yeh](https://rhy3h.github.io/)
 
-rhy3htw@gmail.com  
-[Github](https://github.com/rhy3h)
+rhy3htw@gmail.com | [Github](https://github.com/rhy3h)  
 
 ## Experience
 
@@ -9,29 +8,30 @@ rhy3htw@gmail.com
 
 > TypeScript (Vue, Three.js) / Electron / C# / MSSQL / Python
 
- - Spearheaded the development of [AccuRIG](https://actorcore.reallusion.com/auto-rig/accurig), a free auto-rigging software designed to streamline 3D character rigging in just five steps.
- - Principal developer for Three.js Actor Motion & Accessories interactive showcase. [Live Demo](https://actorcore.reallusion.com/3d-motion/pack/skateboard-525936?info=1)
- - Reduced unnecessary API data transfer to accelerate site performance and improve usability.
- - Leveraged OpenAI Codex in project development to automate code generation and improve overall code quality.
-
+ - Developed [AccuRIG](https://actorcore.reallusion.com/auto-rig/accurig), a 5-step auto-rigging software; resolved **nearly 50% of total defects** during the QA phase, significantly **accelerating the product release cycle**.
+ - **Entrusted by the company** to lead an experimental R&D project; independently researched and implemented **TRAA** to elevate overall WebGL rendering quality and visual stability.
+ - **Sole Developer** for a first-of-its-kind **[Web-based 3D interactive showcase](https://actorcore.reallusion.com/3d-motion/pack/skateboard-525936?asset=bigflip)**; pioneered the end-to-end data architecture for complex character-prop synchronization.
+ - Optimized backend performance by refactoring legacy APIs; achieved a **90% reduction in response payload** through deferred querying, improving system efficiency.
+  
 #### VR Engineer, [Moldex3D](https://www.moldex3d.com) Jul 2021 - Aug 2021
 
 #### Django Engineer Intern, [Tatung Company](https://www.tatung.com/) Jul 2020 - Aug 2020
 
 ## Portfolio
 
-### [DdddOcr JS](https://github.com/rhy3h/ddddocr-node)
-
-> TypeScript
-
-- Ported of the Python project [DdddOcr](https://github.com/sml2h3/ddddocr).
-- Enabling text recognition and object detection in JavaScript.
-
 ### [PowerATC](https://github.com/rhy3h/PowerATC)
 
 > TypeScript (Vue, Three.js) / Tailwind CSS / Electron
 
-- Internal application that optimized workflows, saving both time and operational expenses.
+ - Developed an internal automation tool that streamlined 3D asset conversion, reducing processing time from **2 days to less than 1 day**.
+ - Eliminated cross-departmental dependency by **increasing validation capacity by 5x** (from 1 to 5 motions per actor) and empowering artists to resolve issues independently.
+
+### [DdddOcr JS](https://github.com/rhy3h/ddddocr-node)
+
+> TypeScript (TensorFlow.js, ONNX Runtime)
+
+ - **Ported the [DdddOcr](https://github.com/sml2h3/ddddocr) library from Python to TypeScript**, enabling efficient text recognition and object detection in JavaScript environments.
+ - Developed a **hybrid inference pipeline** using TensorFlow.js for data pre-processing and ONNX Runtime for model execution, ensuring high-performance **cross-platform compatibility**.
 
 ## Education
 
