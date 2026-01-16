@@ -10,7 +10,7 @@ rhy3htw@gmail.com | [Github](https://github.com/rhy3h)
 
  - Developed [AccuRIG](https://actorcore.reallusion.com/auto-rig/accurig), a 5-step auto-rigging software; resolved **nearly 50% of total defects** during the QA phase, significantly **accelerating the product release cycle**.
  - **Entrusted by the company** to lead an experimental R&D project; independently researched and implemented **TRAA** to elevate overall WebGL rendering quality and visual stability.
- - **Sole Developer** for a first-of-its-kind **[Web-based 3D interactive showcase](https://actorcore.reallusion.com/3d-motion/pack/skateboard-525936?asset=bigflip)**; pioneered the end-to-end data architecture for complex character-prop synchronization.
+ - **Led the end-to-end development** of a first-of-its-kind **[Web-based 3D interactive showcase](https://actorcore.reallusion.com/3d-motion/pack/skateboard-525936?asset=bigflip)**; pioneered the end-to-end data architecture for complex character-prop synchronization.
  - Optimized backend performance by refactoring legacy APIs; achieved a **90% reduction in response payload** through deferred querying, improving system efficiency.
   
 #### VR Engineer, [Moldex3D](https://www.moldex3d.com) Jul 2021 - Aug 2021
