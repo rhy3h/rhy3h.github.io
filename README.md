@@ -1,18 +1,19 @@
 # [Ren-Hao, Yeh](https://rhy3h.github.io/)
 
-rhy3htw@gmail.com | [Github](https://github.com/rhy3h)  
+rhy3htw@gmail.com | [Github](https://github.com/rhy3h)
 
 ## Experience
 
 #### Software Engineer, [Reallusion](https://actorcore.reallusion.com) Apr 2022 - Nov 2025
 
-> TypeScript (Vue, Three.js) / Electron / C# / MSSQL / Python
+> TypeScript (Vue, Three.js) / Electron / C# (.NET 7) / MSSQL / Python
 
  - Developed [AccuRIG](https://actorcore.reallusion.com/auto-rig/accurig), a 5-step auto-rigging software; resolved **nearly 50% of total defects** during the QA phase, significantly **accelerating the product release cycle**.
- - **Entrusted by the company** to lead an experimental R&D project; independently researched and implemented **TRAA** to elevate overall WebGL rendering quality and visual stability.
- - **Led the end-to-end development** of a first-of-its-kind [Web-based 3D interactive showcase](https://actorcore.reallusion.com/3d-motion/pack/skateboard-525936?asset=bigflip); pioneered the end-to-end data architecture for complex character-prop synchronization.
+ - **Led the end-to-end development** of a first-of-its-kind [Web-based 3D interactive showcase](https://actorcore.reallusion.com/3d-motion/pack/skateboard-525936?asset=bigflip); drove the project from **initial PoC  to production**, architected the **AWS S3 cloud storage strategy**, and implemented a specialized data structure for seamless character-prop synchronization.
  - Optimized backend performance by refactoring legacy APIs; achieved a **90% reduction in response payload** through deferred querying, improving system efficiency.
-  
+ - **Architected high-performance database logic** using Stored Procedures and Views to manage complex cross-table correlations; implemented **indexing strategies** that significantly enhanced query efficiency and data stability.
+ - **Entrusted by the company** to lead an experimental R&D project; independently researched and implemented **TRAA** to elevate overall WebGL rendering quality and visual stability.
+
 #### VR Engineer, [Moldex3D](https://www.moldex3d.com) Jul 2021 - Aug 2021
 
 #### Django Engineer Intern, [Tatung Company](https://www.tatung.com/) Jul 2020 - Aug 2020
