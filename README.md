@@ -6,7 +6,7 @@ rhy3htw@gmail.com | [Github](https://github.com/rhy3h)
 
 #### Software Engineer, [Reallusion](https://actorcore.reallusion.com) Apr 2022 - Nov 2025
 
-> TypeScript (Vue, Three.js) / Electron / C# (.NET 7) / MSSQL / Python
+> TypeScript (Vue, Three.js) / Electron / C# (.NET 7) / MSSQL / AWS (S3) / Python
 
  - Developed [AccuRIG](https://actorcore.reallusion.com/auto-rig/accurig), a 5-step auto-rigging software; resolved **nearly 50% of total defects** during the QA phase, significantly **accelerating the product release cycle**.
  - **Led the end-to-end development** of a first-of-its-kind [Web-based 3D interactive showcase](https://actorcore.reallusion.com/3d-motion/pack/skateboard-525936?asset=bigflip); drove the project from **initial PoC  to production**, architected the **AWS S3 cloud storage strategy**, and implemented a specialized data structure for seamless character-prop synchronization.
